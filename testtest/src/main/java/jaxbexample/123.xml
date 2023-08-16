@@ -1,0 +1,19 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <SubmitOrderResponse xmlns:ns3="http://oms.rt.ru/">
+            <orderResult>
+                <orderResultCode>0</orderResultCode>
+                <orderResultText>Заказ получен</orderResultText>
+            </orderResult>
+            <requestId>11</requestId>
+            <order>
+                <acknowledgement>
+                    <orderId>11</orderId>
+                    <orderOMSId>9b215ba8-2eed-4524-b357-db781a93265d</orderOMSId>
+                    <orderState>RECEIVED</orderState>
+                </acknowledgement>
+            </order>
+        </SubmitOrderResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
