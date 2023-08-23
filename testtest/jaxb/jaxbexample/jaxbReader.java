@@ -12,8 +12,8 @@ public class jaxbReader {
 
         var unmarshaller = context.createUnmarshaller();
         var customer = unmarshaller.unmarshal(file);
-        //System.out.println(customer.id);
-        //System.out.println(customer.name);
-        //System.out.println(customer.age);
+        System.out.println(customer.id);
+        System.out.println(customer.name);
+        System.out.println(customer.age);
     }
 }

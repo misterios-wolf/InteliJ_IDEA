@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<emplyee>
+    <name>Kirill</name>
+    <number>12345</number>
+    <age>25</age>
+    <city>St.Petesburg</city>
+</emplyee>
